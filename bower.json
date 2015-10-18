@@ -12,8 +12,7 @@
     "routing"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/indigen-solutions/indi-route-angular",
-  "private": true,
+  "homepage": "https://github.com/indigen-solutions/indi-route-angular"
   "dependencies": {
     "angular": ">=1.3",
     "angular-route": ">=1.3",
