@@ -1,0 +1,32 @@
+ng-view {
+    display: block;
+    border: 1px solid red;
+    transition: transform 10s ease;
+    transform: none;
+    position: absolute;
+    width:90%;
+}
+
+ng-view.page-home {
+    border: 1px solid blue;
+}
+
+html.page-home-leave-active ng-view.page-home,
+html.page-article-leave-active ng-view.page-article
+{
+    transform: translateX(-100%);
+}
+
+html.page-home-enter ng-view.page-home,
+html.page-article-enter ng-view.page-article {
+    transform: translateY(100%);
+}
+
+html.page-home-enter-active ng-view.page-home,
+html.page-article-enter-active ng-view.page-article {
+    transform: none;
+}
+
+html {
+    transition: transform 10s ease;
+}
