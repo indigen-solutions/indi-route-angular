@@ -12,7 +12,7 @@
     "routing"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/indigen-solutions/indi-route-angular"
+  "homepage": "https://github.com/indigen-solutions/indi-route-angular",
   "dependencies": {
     "angular": ">=1.3",
     "angular-route": ">=1.3",
@@ -20,5 +20,13 @@
   },
   "devDependencies": {
     "angular-animate": ">=1.3"
-  }
+  },
+  "ignore": [
+    "node_modules",
+    "bower_components",
+    "exemples",
+    "src",
+    "package.json",
+    "gulpfile.js"
+  ]
 }
