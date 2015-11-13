@@ -4,7 +4,7 @@
     "Jérôme Quéré <jerome.quere@indigen.com>"
   ],
   "description": "An angular routing library based upon ng-route",
-  "main": "dist/indi-route-angular.min.js",
+  "main": "dist/indi-route-angular.js",
   "moduleType": [],
   "keywords": [
     "angular",

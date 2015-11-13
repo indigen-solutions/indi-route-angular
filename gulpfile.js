@@ -16,7 +16,7 @@ var config  = {
         }
     },
     jsMin: {
-        entries: ['build/indi-routing-angular.js'],
+        entries: ['dist/indi-route-angular.js'],
         output: {
             path: './dist/',
             name: 'indi-route-angular.min.js'
